@@ -124,7 +124,6 @@ body {
 .faj-project {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .sessao-projetos {
@@ -153,6 +152,7 @@ body {
 .projetos {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
