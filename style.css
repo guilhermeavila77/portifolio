@@ -74,12 +74,14 @@ body {
     color: black;
     font-weight: 100;
     font-size: 50px;
+    flex-wrap: wrap;
 }
 
 .icones {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .img-lgs {
@@ -122,6 +124,7 @@ body {
 .faj-project {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .sessao-projetos {
